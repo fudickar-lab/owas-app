@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.observation.posture.ObservationBackPostureFragment"
+        android:id="@+id/fragment_back-posture">
+
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackCode1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_back_1"
+            android:gravity="bottom"
+            android:textColor="#888"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@+id/buttonBackCode2"
+            />
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackCode2"
+            android:src="@drawable/ic_back_2"
+            android:gravity="bottom"
+            android:textColor="#888"
+            app:layout_constraintStart_toEndOf="@+id/buttonBackCode1"
+            app:layout_constraintTop_toTopOf="@+id/buttonBackCode1"
+            android:layout_marginStart="16dp"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonBackCode1"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"/>
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackCode3"
+            android:src="@drawable/ic_back_3"
+            android:gravity="bottom"
+            android:textColor="#888"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintStart_toStartOf="@+id/buttonBackCode1"
+            app:layout_constraintEnd_toEndOf="@+id/buttonBackCode1"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBackCode1"
+            android:layout_marginTop="16dp"/>
+
+    <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBackCode4"
+            android:src="@drawable/ic_back_4"
+            android:gravity="bottom"
+            android:textColor="#888"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toEndOf="@+id/buttonBackCode2"
+            app:layout_constraintStart_toStartOf="@+id/buttonBackCode2"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBackCode2"
+            android:layout_marginTop="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

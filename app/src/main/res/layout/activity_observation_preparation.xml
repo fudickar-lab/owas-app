@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.observation_preparation.ObservationPreparationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/ConstraintLayoutObservationPreparation">
+
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextRater"
+                android:hint="@string/Rater"
+                android:autofillHints=""
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"/>
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextWorker"
+                android:hint="@string/worker"
+                android:autofillHints=""
+                app:layout_constraintStart_toStartOf="@+id/editTextRater"
+                app:layout_constraintEnd_toEndOf="@+id/editTextRater"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRater"
+                android:layout_marginTop="16dp"/>
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextWorkplace"
+                android:hint="@string/workplace"
+                android:autofillHints=""
+                app:layout_constraintEnd_toEndOf="@+id/editTextWorker"
+                app:layout_constraintStart_toStartOf="@+id/editTextWorker"
+                app:layout_constraintTop_toBottomOf="@+id/editTextWorker"
+                android:layout_marginTop="16dp"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        <Button
+                android:text="@string/addWorkerToList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonAddWorkerToList"
+                app:layout_constraintEnd_toEndOf="@+id/editTextWorkplace"
+                app:layout_constraintStart_toStartOf="@+id/editTextWorkplace"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toBottomOf="@+id/editTextWorkplace"
+                android:layout_marginTop="16dp"/>
+
+        <Button
+                android:text="@string/start_Sessionn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartSession"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintStart_toEndOf="@+id/buttonEndAllSessions"
+                android:layout_marginStart="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerViewWorkerList"
+                android:layout_marginTop="32dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/recyclerViewWorkerList"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                tools:itemCount="11"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toBottomOf="@+id/buttonAddWorkerToList"
+                android:layout_marginTop="16dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+                android:text="@string/endAllSession"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/buttonEndAllSessions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/buttonStartSession"
+                app:layout_constraintTop_toTopOf="@+id/buttonStartSession"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
