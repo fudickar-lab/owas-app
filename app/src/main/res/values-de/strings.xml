@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">OWAS-App</string>
+
+    <string name="menu_instruction">OWAS-Einführung</string>
+
+    <!--Strings die genutzt werden für die Buttons-->
+    <string name="Beobachtung">Beobachtung</string>
+    <string name="Daten_Analyse">Datenanalyse</string>
+
+    <string name="Rater">Protokollant</string>
+    <string name="worker">Arbeitnehmer</string>
+    <string name="workplace">Arbeitsplatz</string>
+    <string name="start_observation">Beobachtung starten</string>
+    <string name="addWorkerToList">Hinzufügen</string>
+
+    <string name="start_Session" tools:ignore="ExtraTranslation">Starte Session</string>
+    <string name="endAllSession">Beende alles</string>
+    <string name="endCurrentSession">Beende Session</string>
+    <string name="goOn">Weiter</string>
+    <string name="submit">Eingabe</string>
+    <string name="cancel">Abbruch</string>
+    <string name="deleteInput">Einträge löschen</string>
+    <string name="timer">Verbleibende Zeit bis zur nächsten Beobachtung  </string>
+    <string name="timerOver">Starte neue Beobachtung </string>
+
+    <string name="getDataAnalysis">Grafik anzeigen</string>
+    <string name="Date">Datum</string>
+
+    <string name="useOfForce">Gewichtsbelastung</string>
+    <string name="legPosture">Beinhaltung</string>
+    <string name="armPosture">Armhaltung</string>
+    <string name="backPosture">Rückenhaltung</string>
+
+    <string name="armCode1">Beide Arme sind unterhalb der Schulter</string>
+    <string name="armCode2">Ein Arm ist höher als die Schulter</string>
+    <string name="armCode3">Beide Arme sind höher als die Schulter</string>
+
+    <string name="legCode1">sitzend</string>
+    <string name="legCode2">Gerade Beine</string>
+    <string name="legCode3">Last auf einem Bein</string>
+    <string name="legCode4">Hocke</string>
+    <string name="legCode5">Hocke auf einem Bein</string>
+    <string name="legCode6">kniend</string>
+    <string name="legCode7">gehend</string>
+
+    <string name="backCode1">gerade</string>
+    <string name="backCode2">gekrümmt</string>
+    <string name="backCode3">gedreht</string>
+    <string name="backCode4">gedreht &amp; gekrümmt</string>
+
+    <string name="useOfForceCode1">&lt;=10Kg</string>
+    <string name="useOfForceCode2">&gt;10 &lt;20Kg</string>
+    <string name="useOfForceCode3">&gt; 20Kg</string>
+
+    <string name="shortcuts">Shortcuts</string>
+    <string name="chooseShortcut">Eingabe</string>
+    <string name="CancelShortcutInput">Zurück</string>
+
+    <string name="export">Exportieren</string>
+
+    <string name="welcome">Guten Tag. Unten kannst du die einzelnen Haltungen angeben.
+        Hast du alles eingegeben, kannst du mit EINGABE die Werte speichern.
+    </string>
+    <string name="lastEntryStillGood">Wenn sich die Position nicht verändert hat, klicke einfach auf EINGABE.
+        Ansonsten gib bitte an, was sich geändert hat. Letzter Code:
+    </string>
+
+    <string name="choose">Wähle Arbeitenden aus Liste</string>
+    <string name="error">Es ist leider ein Fehler aufgetreten</string>
+    <string name="erroranswers">Die gewählten Eingaben passen nicht zusammen.</string>
+    <string name="emptyDatabase">In der Datenbank befinden sich noch keine Einträge, bitte füge zuerst Beobachtungen hinzu.</string>
+
+    <string name="success">Daten erfolgreich exportiert</string>
+
+    <!--Strings die genutzt werden für Hilfe im Menü-->
+    <string name="instructionLeg">In diesen Abschnitt können Sie die Erklärungen zu den einzelnen Bildern der OWAS-Methode nachlesen.</string>
+
+    <string name="armCode1Long">Beide Arme sind unterhalb der Schulter</string>
+    <string name="armCode2Long">Ein Arm ist höher als die Schulter</string>
+    <string name="armCode3Long">Beide Arme sind höher als die Schulter</string>
+
+    <string name="legCode1Long">sitzend (Körpergewicht liegt auf dem Gesäß und Beine sind unterhalb des Gesäßes.)</string>
+    <string name="legCode2Long">stehend auf zwei gestreckten / geraden Beinen (Das Körpergewicht ist auf beiden
+Beinen verteilt und der Winkel der Knie ist größer als 150 Grad)</string>
+    <string name="legCode3Long">stehend auf einem gestreckten / geraden Bein (Das Körpergewicht liegt auf einem Bein
+und der Winkel des Knies dieses Beines ist größer als 150 Grad)</string>
+    <string name="legCode4Long">stehend oder hockend auf zwei gebeugten Beinen (Das Körpergewicht ist auf beiden
+Beinen verteilt und der Winkel der Knie ist 150 Grad oder weniger)</string>
+    <string name="legCode5Long">stehend oder hockend auf einem gebeugten Bein (Körpergewicht ist auf einem Bein und
+der Winkel des Knies ist 150 Grad oder weniger)</string>
+    <string name="legCode6Long">kniend (auf einem oder beiden Knien)</string>
+    <string name="legCode7Long">gehend</string>
+
+    <string name="backCode1Long"> gerade (weniger als 20 Grad gekrümmt oder gedreht)</string>
+    <string name="backCode2Long">gekrümmt (20 Grad oder mehr vorwärts / zurück gekrümmt)</string>
+    <string name="backCode3Long"> gedreht (20 Grad oder mehr gedreht / seitlich gebeugt)</string>
+    <string name="backCode4Long">gedreht und gekrümmt (beide Bedingungen müssen gleichzeitig zutreffen)</string>
+
+    <string name="useOfForceCode1Long">10 Kilogramm oder weniger</string>
+    <string name="useOfForceCode2Long">schwerer als 10 Kilogramm, aber nicht schwerer als 20 Kilogramm</string>
+    <string name="useOfForceCode3Long">schwerer als 20 Kilogramm</string>
+
+    <string name="alarmNo4">Falls der*die Arbeitende immer noch die gleiche Haltung haben sollte, weise ihn*sie
+        an, diese Haltung zu verlassen, bevor du die neue Haltung eingibst. Letzter Code: </string>
+    <string name="observationPreparationError">Bitte fülle erst alle Felder aus.</string>
+
+
+
+</resources>
